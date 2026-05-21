@@ -5,7 +5,7 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'your-secret-key-here-change-in-production'
+SECRET_KEY = 'hidden'
 DEBUG = True
 ALLOWED_HOSTS = ['mybusinessbooking.ru', 'www.mybusinessbooking.ru', '127.0.0.1', '*']
 
@@ -66,9 +66,9 @@ WSGI_APPLICATION = 'booking_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mybusin2ru',
-        'USER': 'mybusin2ru',
-        'PASSWORD': '*F7S1AFCGJK3kCNY',
+        'NAME': 'hidden',
+        'USER': 'hidden',
+        'PASSWORD': 'hidden',
         'HOST': 'pg4.sweb.ru',
         'PORT': '5433',
     }
@@ -116,16 +116,16 @@ EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
 EMAIL_USE_TLS = False
-EMAIL_HOST_USER = 'dlyepic@mail.ru'
-EMAIL_HOST_PASSWORD = 'WhWoIQ9NVntVzCN9pgGf'
-DEFAULT_FROM_EMAIL = 'dlyepic@mail.ru'
+EMAIL_HOST_USER = 'hidden'
+EMAIL_HOST_PASSWORD = 'hidden'
+DEFAULT_FROM_EMAIL = 'dhidden'
 
 
 # SMSC.ru
 
-SMSC_LOGIN = 'makar07trofimov'
-SMSC_PASSWORD = 'M1a9m7a8!?@'
-SMSC_SENDER = 'Mybuisiness'
+SMSC_LOGIN = 'hidden'
+SMSC_PASSWORD = 'hidden'
+SMSC_SENDER = 'hidden'
 
 # JWT настройки для совместимости с frontend
 SIMPLE_JWT = {
