@@ -1,0 +1,270 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 20260416 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.mybusinessbooking.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2005                
+POS_TIME 2692                
+POS_VISITOR 3442                
+POS_DAY 3671                
+POS_DOMAIN 3820                
+POS_LOGIN 4063                
+POS_ROBOT 4218                
+POS_WORMS 4385                
+POS_EMAILSENDER 4516                
+POS_EMAILRECEIVER 4659                
+POS_SESSION 4735                
+POS_SIDER 4912                
+POS_FILETYPES 5481                
+POS_DOWNLOADS 5667                
+POS_OS 5715                
+POS_BROWSER 5808                
+POS_SCREENSIZE 5911                
+POS_UNKNOWNREFERER 5985                
+POS_UNKNOWNREFERERBROWSER 6072                
+POS_ORIGIN 6154                
+POS_SEREFERRALS 6288                
+POS_PAGEREFS 6432                
+POS_SEARCHWORDS 6608                
+POS_KEYWORDS 6760                
+POS_MISC 2356                
+POS_ERRORS 6819                
+POS_CLUSTER 3919                
+POS_SIDER_404 6944                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260417000804 1000 266398 11930065038578
+FirstTime 20260416013508
+LastTime 20260416200949
+LastUpdate 20260417001921 1000 0 345 654 0
+TotalVisits 8                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 11 31 7730 1 4 2319
+2 0 58 37213 0 11 14966
+3 1 26 108257 1 1 0
+4 0 0 0 1 1 1042
+5 0 0 0 0 0 0
+6 0 0 0 2 2 2084
+7 0 0 0 8 8 8340
+8 0 0 0 5 5 6537
+9 0 0 0 3 3 3126
+10 0 0 0 2 2 2084
+11 0 0 0 4 4 4168
+12 0 0 0 3 3 3126
+13 0 0 0 0 0 0
+14 0 0 0 2 3 625064
+15 0 18 0 10 12 11124
+16 4 4 1436 12 13 13208
+17 0 0 0 3 3 3126
+18 4 62 95700 10 11 10814
+19 12 12 7990 1 2 1042
+20 35 35 37663 3 4 5489
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+185.119.0.201 56 73 159211 20260416200949
+193.39.143.98 9 171 135232 20260416181514
+128.204.75.49 1 1 773 20260416013858
+88.210.55.22 1 1 773 20260416013738
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20260416 67 246 295989 8
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+ru 58 75 160757
+nl 9 171 135232
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+Discordbot/ 1 773 20260416013726 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+30s-2mn 1
+2mn-5mn 1
+0s-30s 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/api/services/0aff4936-f750-48eb-95d9-38a91cf1059a/ 18 22160 0 1
+/api/organizations/b3fa4bc3-f785-489c-b174-00fb07118707/ 9 11501 0 0
+/api/services/bcf566c6-4eec-435a-9da7-d9da44553470/ 8 2322 0 0
+/services/ 7 5411 2 2
+/api/organizations/ 6 1290 0 0
+/api/services/ 6 8380 1 0
+/api/services/afbcfbf5-afa2-4035-9145-c3f3c3ebb915/ 4 1436 1 1
+/awstats/cgi-bin/awstats.pl 4 89870 1 1
+/ 3 2319 2 1
+/static/rest_framework/css/bootstrap.min.css.map 2 0 1 2
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+gif 1 97 0 0
+svg 12 1875 0 0
+pl 4 89870 0 0
+css 44 8847 0 0
+map 2 0 0 0
+js 96 134748 0 0
+png 26 5733 0 0
+php 61 54819 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+win10 244 65
+ios_iphone 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+safari16.3 1 1
+chrome147.0.0.0 244 65
+safari26.3 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 9
+From1 0 0
+From2 0 0
+From3 55 55
+From4 3 182
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://localhost:3000 55 55
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 67 72450
+404 13 18492
+302 1 376
+415 2 624022
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/static/rest_framework/css/default.css 1 http://mybusinessbooking.ru/services/
+/wp-login.php 1 -
+/static/rest_framework/js/csrf.js 1 http://mybusinessbooking.ru/services/
+/static/rest_framework/js/ajax-form.js 1 http://mybusinessbooking.ru/services/
+/robots.txt 1 -
+/static/rest_framework/js/prettify-min.js 1 http://mybusinessbooking.ru/services/
+/static/rest_framework/css/prettify.css 1 http://mybusinessbooking.ru/services/
+/static/rest_framework/js/bootstrap.min.js 1 http://mybusinessbooking.ru/services/
+/static/rest_framework/css/bootstrap-tweaks.css 1 http://mybusinessbooking.ru/services/
+/api/services/ 1 -
+/static/rest_framework/css/bootstrap.min.css 1 http://mybusinessbooking.ru/services/
+/static/rest_framework/js/jquery-3.7.1.min.js 1 http://mybusinessbooking.ru/services/
+/static/rest_framework/js/default.js 1 http://mybusinessbooking.ru/services/
+END_SIDER_404

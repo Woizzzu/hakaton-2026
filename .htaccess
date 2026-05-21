@@ -1,0 +1,24 @@
+# 1. Разрешаем проброс заголовка авторизации в Django
+WSGIPassAuthorization On
+
+AddHandler wsgi-script .py
+Options +ExecCGI
+
+RewriteEngine On
+
+# 2. Явно передаем заголовок Authorization в переменную окружения
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+# Если это НЕ файл и НЕ папка
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Передаём путь в Django
+RewriteRule ^(.*)$ passenger_wsgi.py/$1 [QSA,L]
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE, PATCH"
+    Header set Access-Control-Allow-Headers "*"
+</IfModule>
